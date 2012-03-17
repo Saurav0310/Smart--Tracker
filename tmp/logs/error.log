@@ -1,0 +1,861 @@
+2012-03-12 06:50:07 Error: [MissingTableException] Database table users for model User was not found.
+#0 C:\xampp\htdocs\cake\cake\lib\Cake\Model\Model.php(3265): Model->setSource('users')
+#1 C:\xampp\htdocs\cake\cake\lib\Cake\Model\Datasource\DboSource.php(1026): Model->getDataSource()
+#2 C:\xampp\htdocs\cake\cake\lib\Cake\Model\Model.php(2483): DboSource->read(Object(Call), Array)
+#3 C:\xampp\htdocs\cake\cake\lib\Cake\Controller\Component\PaginatorComponent.php(172): Model->find('all', Array)
+#4 C:\xampp\htdocs\cake\cake\lib\Cake\Controller\Controller.php(1025): PaginatorComponent->paginate(NULL, Array, Array)
+#5 C:\xampp\htdocs\cake\cake\integrations\Controller\CallsController.php(18): Controller->paginate()
+#6 [internal function]: CallsController->index()
+#7 C:\xampp\htdocs\cake\cake\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(CallsController), Array)
+#8 C:\xampp\htdocs\cake\cake\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#9 C:\xampp\htdocs\cake\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(CallsController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-03-12 06:57:28 Error: [MissingTableException] Database table activity_types for model ActivityType was not found.
+#0 C:\xampp\htdocs\cake\cake\lib\Cake\Model\Model.php(3265): Model->setSource('activity_types')
+#1 C:\xampp\htdocs\cake\cake\lib\Cake\Model\Datasource\DboSource.php(1026): Model->getDataSource()
+#2 C:\xampp\htdocs\cake\cake\lib\Cake\Model\Model.php(2483): DboSource->read(Object(Call), Array)
+#3 C:\xampp\htdocs\cake\cake\lib\Cake\Controller\Component\PaginatorComponent.php(172): Model->find('all', Array)
+#4 C:\xampp\htdocs\cake\cake\lib\Cake\Controller\Controller.php(1025): PaginatorComponent->paginate(NULL, Array, Array)
+#5 C:\xampp\htdocs\cake\cake\integrations\Controller\CallsController.php(18): Controller->paginate()
+#6 [internal function]: CallsController->index()
+#7 C:\xampp\htdocs\cake\cake\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(CallsController), Array)
+#8 C:\xampp\htdocs\cake\cake\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#9 C:\xampp\htdocs\cake\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(CallsController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-03-12 06:58:20 Error: [MissingTableException] Database table shifts for model Shift was not found.
+#0 C:\xampp\htdocs\cake\cake\lib\Cake\Model\Model.php(3265): Model->setSource('shifts')
+#1 C:\xampp\htdocs\cake\cake\lib\Cake\Model\Datasource\DboSource.php(1026): Model->getDataSource()
+#2 C:\xampp\htdocs\cake\cake\lib\Cake\Model\Model.php(2483): DboSource->read(Object(Call), Array)
+#3 C:\xampp\htdocs\cake\cake\lib\Cake\Controller\Component\PaginatorComponent.php(172): Model->find('all', Array)
+#4 C:\xampp\htdocs\cake\cake\lib\Cake\Controller\Controller.php(1025): PaginatorComponent->paginate(NULL, Array, Array)
+#5 C:\xampp\htdocs\cake\cake\integrations\Controller\CallsController.php(18): Controller->paginate()
+#6 [internal function]: CallsController->index()
+#7 C:\xampp\htdocs\cake\cake\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(CallsController), Array)
+#8 C:\xampp\htdocs\cake\cake\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#9 C:\xampp\htdocs\cake\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(CallsController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-03-12 06:59:14 Error: [MissingViewException] View file "C:\xampp\htdocs\cake\cake\integrations\View\Calls\index.ctp" is missing.
+#0 C:\xampp\htdocs\cake\cake\lib\Cake\View\View.php(360): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cake\cake\lib\Cake\Controller\Controller.php(900): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cake\cake\lib\Cake\Routing\Dispatcher.php(111): Controller->render()
+#3 C:\xampp\htdocs\cake\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(CallsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-03-12 06:59:55 Error: [MissingActionException] Action CallsController::index() could not be found.
+#0 C:\xampp\htdocs\cake\cake\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cake\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(CallsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-03-12 07:00:00 Error: [MissingControllerException] Controller class CallController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-12 07:00:02 Error: [MissingActionException] Action CallsController::index() could not be found.
+#0 C:\xampp\htdocs\cake\cake\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cake\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(CallsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-03-12 07:02:42 Error: [MissingControllerException] Controller class RecievedOnsController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-12 07:03:04 Error: [MissingControllerException] Controller class ShiftsController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-12 07:08:46 Error: [MissingControllerException] Controller class UsersController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-12 07:13:11 Error: [NotFoundException] Invalid recieved on
+#0 [internal function]: RecievedOnsController->delete('0')
+#1 C:\xampp\htdocs\cake\cake\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(RecievedOnsController), Array)
+#2 C:\xampp\htdocs\cake\cake\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cake\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(RecievedOnsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-03-12 07:13:43 Error: [MissingControllerException] Controller class UsersController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-12 07:15:57 Error: [MissingControllerException] Controller class UsersController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-12 12:07:31 Error: [MissingActionException] Action CallsController::admin() could not be found.
+#0 C:\xampp\htdocs\cake\cake\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cake\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(CallsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-03-12 12:07:36 Error: [MissingActionException] Action CallsController::admin() could not be found.
+#0 C:\xampp\htdocs\cake\cake\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cake\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(CallsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-03-12 12:15:13 Error: [MissingTableException] Database table shits for model Shit was not found.
+#0 C:\xampp\htdocs\cake\cake\lib\Cake\Model\Model.php(3265): Model->setSource('shits')
+#1 C:\xampp\htdocs\cake\cake\lib\Cake\Model\Datasource\DboSource.php(1026): Model->getDataSource()
+#2 C:\xampp\htdocs\cake\cake\lib\Cake\Model\Model.php(2483): DboSource->read(Object(Call), Array)
+#3 C:\xampp\htdocs\cake\cake\lib\Cake\Controller\Component\PaginatorComponent.php(172): Model->find('all', Array)
+#4 C:\xampp\htdocs\cake\cake\lib\Cake\Controller\Controller.php(1025): PaginatorComponent->paginate(NULL, Array, Array)
+#5 C:\xampp\htdocs\cake\cake\integrations\Controller\CallsController.php(18): Controller->paginate()
+#6 [internal function]: CallsController->index()
+#7 C:\xampp\htdocs\cake\cake\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(CallsController), Array)
+#8 C:\xampp\htdocs\cake\cake\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#9 C:\xampp\htdocs\cake\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(CallsController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-03-12 12:16:41 Error: [MissingTableException] Database table shits for model Shit was not found.
+#0 C:\xampp\htdocs\cake\cake\lib\Cake\Model\Model.php(3265): Model->setSource('shits')
+#1 C:\xampp\htdocs\cake\cake\lib\Cake\Model\Datasource\DboSource.php(1026): Model->getDataSource()
+#2 C:\xampp\htdocs\cake\cake\lib\Cake\Model\Model.php(2483): DboSource->read(Object(Call), Array)
+#3 C:\xampp\htdocs\cake\cake\lib\Cake\Controller\Component\PaginatorComponent.php(172): Model->find('all', Array)
+#4 C:\xampp\htdocs\cake\cake\lib\Cake\Controller\Controller.php(1025): PaginatorComponent->paginate(NULL, Array, Array)
+#5 C:\xampp\htdocs\cake\cake\integrations\Controller\CallsController.php(18): Controller->paginate()
+#6 [internal function]: CallsController->index()
+#7 C:\xampp\htdocs\cake\cake\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(CallsController), Array)
+#8 C:\xampp\htdocs\cake\cake\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#9 C:\xampp\htdocs\cake\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(CallsController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-03-12 14:37:39 Error: [MissingControllerException] Controller class Style.cssController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-12 14:39:31 Error: [MissingControllerException] Controller class Style.cssController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-12 14:39:46 Error: [MissingControllerException] Controller class Style.cssController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-12 14:39:46 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-12 14:39:46 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-12 14:39:46 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-12 14:40:24 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-12 14:40:24 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-12 14:40:24 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-12 14:41:00 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-12 14:41:00 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-12 14:41:00 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-12 14:41:16 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-12 14:41:16 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-12 14:41:16 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-12 14:41:26 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-12 14:41:26 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-12 14:41:26 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-12 14:41:44 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-12 14:41:44 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-12 14:41:44 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-12 14:41:57 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-12 14:41:57 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-12 14:41:57 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-12 14:42:24 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-12 14:42:24 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-12 14:42:24 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-12 14:42:33 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-12 14:42:33 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-12 14:42:33 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-12 14:42:35 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-12 14:42:35 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-12 14:42:35 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-12 14:43:28 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-12 14:43:28 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-12 14:44:01 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-12 14:44:01 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-12 14:44:01 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-12 14:44:39 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-12 14:44:39 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-12 14:44:39 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-12 14:45:18 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-12 14:45:18 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-12 14:47:55 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-12 14:47:55 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-12 14:48:05 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-12 14:48:05 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-12 14:48:53 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-12 14:48:53 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-12 14:49:18 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-12 14:49:18 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-12 14:50:28 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-12 14:50:28 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-12 14:51:44 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-12 14:51:44 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-12 14:52:28 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-12 14:52:28 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-12 14:52:43 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-12 14:52:43 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-12 14:53:02 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-12 14:53:02 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-12 14:53:07 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-12 14:53:08 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-12 14:53:52 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-12 14:53:52 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-12 14:54:40 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-12 14:54:40 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-12 14:55:34 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-12 14:55:34 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-12 14:55:49 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-12 14:55:49 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-12 14:56:15 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-12 14:56:15 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-12 14:56:24 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-12 14:56:24 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-12 14:57:15 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-12 14:59:16 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-12 16:15:33 Error: [MissingControllerException] Controller class Style.cssController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-12 16:25:50 Error: [MissingActionException] Action CallsController::excel.ctp() could not be found.
+#0 C:\xampp\htdocs\cake\cake\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cake\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(CallsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-03-12 16:30:35 Error: [MissingControllerException] Controller class Style.cssController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-12 18:26:22 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\xampp\htdocs\cake\cake\integrations\View\Calls\export_xls.ctp, line 34]
+Trace:
+include - APP\View\Calls\export_xls.ctp, line 34
+View::_render() - CORE\Cake\View\View.php, line 595
+View::render() - CORE\Cake\View\View.php, line 362
+Controller::render() - CORE\Cake\Controller\Controller.php, line 900
+CallsController::excel() - APP\Controller\CallsController.php, line 23
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 473
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 104
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 86
+[main] - APP\webroot\index.php, line 98
+
+2012-03-12 18:27:13 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\xampp\htdocs\cake\cake\integrations\View\Helper\Excel.php, line 35]
+Trace:
+ExcelHelper::_headers() - APP\View\Helper\Excel.php, line 35
+ExcelHelper::generate() - APP\View\Helper\Excel.php, line 21
+include - APP\View\Calls\excel.ctp, line 1
+View::_render() - CORE\Cake\View\View.php, line 595
+View::render() - CORE\Cake\View\View.php, line 362
+Controller::render() - CORE\Cake\Controller\Controller.php, line 900
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 111
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 86
+[main] - APP\webroot\index.php, line 98
+
+2012-03-12 18:27:13 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\xampp\htdocs\cake\cake\integrations\View\Helper\Excel.php, line 52]
+Trace:
+ExcelHelper::_rows() - APP\View\Helper\Excel.php, line 52
+ExcelHelper::generate() - APP\View\Helper\Excel.php, line 22
+include - APP\View\Calls\excel.ctp, line 1
+View::_render() - CORE\Cake\View\View.php, line 595
+View::render() - CORE\Cake\View\View.php, line 362
+Controller::render() - CORE\Cake\Controller\Controller.php, line 900
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 111
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 86
+[main] - APP\webroot\index.php, line 98
+
+2012-03-12 18:28:26 Error: [MissingViewException] View file "C:\xampp\htdocs\cake\cake\integrations\View\Calls\exce_l.ctp" is missing.
+#0 C:\xampp\htdocs\cake\cake\lib\Cake\View\View.php(360): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cake\cake\lib\Cake\Controller\Controller.php(900): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cake\cake\lib\Cake\Routing\Dispatcher.php(111): Controller->render()
+#3 C:\xampp\htdocs\cake\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(CallsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-03-12 18:28:31 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\xampp\htdocs\cake\cake\integrations\View\Helper\Excel.php, line 35]
+Trace:
+ExcelHelper::_headers() - APP\View\Helper\Excel.php, line 35
+ExcelHelper::generate() - APP\View\Helper\Excel.php, line 21
+include - APP\View\Calls\excel.ctp, line 1
+View::_render() - CORE\Cake\View\View.php, line 595
+View::render() - CORE\Cake\View\View.php, line 362
+Controller::render() - CORE\Cake\Controller\Controller.php, line 900
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 111
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 86
+[main] - APP\webroot\index.php, line 98
+
+2012-03-12 18:28:31 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\xampp\htdocs\cake\cake\integrations\View\Helper\Excel.php, line 52]
+Trace:
+ExcelHelper::_rows() - APP\View\Helper\Excel.php, line 52
+ExcelHelper::generate() - APP\View\Helper\Excel.php, line 22
+include - APP\View\Calls\excel.ctp, line 1
+View::_render() - CORE\Cake\View\View.php, line 595
+View::render() - CORE\Cake\View\View.php, line 362
+Controller::render() - CORE\Cake\Controller\Controller.php, line 900
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 111
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 86
+[main] - APP\webroot\index.php, line 98
+
+2012-03-12 18:29:05 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\xampp\htdocs\cake\cake\integrations\View\Helper\Excel.php, line 35]
+Trace:
+ExcelHelper::_headers() - APP\View\Helper\Excel.php, line 35
+ExcelHelper::generate() - APP\View\Helper\Excel.php, line 21
+include - APP\View\Calls\excel.ctp, line 1
+View::_render() - CORE\Cake\View\View.php, line 595
+View::render() - CORE\Cake\View\View.php, line 362
+Controller::render() - CORE\Cake\Controller\Controller.php, line 900
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 111
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 86
+[main] - APP\webroot\index.php, line 98
+
+2012-03-12 18:29:05 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\xampp\htdocs\cake\cake\integrations\View\Helper\Excel.php, line 52]
+Trace:
+ExcelHelper::_rows() - APP\View\Helper\Excel.php, line 52
+ExcelHelper::generate() - APP\View\Helper\Excel.php, line 22
+include - APP\View\Calls\excel.ctp, line 1
+View::_render() - CORE\Cake\View\View.php, line 595
+View::render() - CORE\Cake\View\View.php, line 362
+Controller::render() - CORE\Cake\Controller\Controller.php, line 900
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 111
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 86
+[main] - APP\webroot\index.php, line 98
+
+2012-03-12 18:34:21 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\xampp\htdocs\cake\cake\integrations\View\Helper\Excel.php, line 35]
+Trace:
+ExcelHelper::_headers() - APP\View\Helper\Excel.php, line 35
+ExcelHelper::generate() - APP\View\Helper\Excel.php, line 21
+include - APP\View\Calls\excel.ctp, line 1
+View::_render() - CORE\Cake\View\View.php, line 595
+View::render() - CORE\Cake\View\View.php, line 362
+Controller::render() - CORE\Cake\Controller\Controller.php, line 900
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 111
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 86
+[main] - APP\webroot\index.php, line 98
+
+2012-03-12 18:34:21 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\xampp\htdocs\cake\cake\integrations\View\Helper\Excel.php, line 52]
+Trace:
+ExcelHelper::_rows() - APP\View\Helper\Excel.php, line 52
+ExcelHelper::generate() - APP\View\Helper\Excel.php, line 22
+include - APP\View\Calls\excel.ctp, line 1
+View::_render() - CORE\Cake\View\View.php, line 595
+View::render() - CORE\Cake\View\View.php, line 362
+Controller::render() - CORE\Cake\Controller\Controller.php, line 900
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 111
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 86
+[main] - APP\webroot\index.php, line 98
+
+2012-03-12 18:35:27 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\xampp\htdocs\cake\cake\integrations\View\Helper\Excel.php, line 35]
+Trace:
+ExcelHelper::_headers() - APP\View\Helper\Excel.php, line 35
+ExcelHelper::generate() - APP\View\Helper\Excel.php, line 21
+include - APP\View\Calls\excel.ctp, line 1
+View::_render() - CORE\Cake\View\View.php, line 595
+View::render() - CORE\Cake\View\View.php, line 362
+Controller::render() - CORE\Cake\Controller\Controller.php, line 900
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 111
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 86
+[main] - APP\webroot\index.php, line 98
+
+2012-03-12 18:35:27 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\xampp\htdocs\cake\cake\integrations\View\Helper\Excel.php, line 52]
+Trace:
+ExcelHelper::_rows() - APP\View\Helper\Excel.php, line 52
+ExcelHelper::generate() - APP\View\Helper\Excel.php, line 22
+include - APP\View\Calls\excel.ctp, line 1
+View::_render() - CORE\Cake\View\View.php, line 595
+View::render() - CORE\Cake\View\View.php, line 362
+Controller::render() - CORE\Cake\Controller\Controller.php, line 900
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 111
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 86
+[main] - APP\webroot\index.php, line 98
+
+2012-03-13 15:55:52 Error: [MissingTableException] Database table integration_types for model IntegrationType was not found.
+#0 C:\xampp\htdocs\cake\cake\lib\Cake\Model\Model.php(3265): Model->setSource('integration_typ...')
+#1 C:\xampp\htdocs\cake\cake\lib\Cake\Model\Model.php(2483): Model->getDataSource()
+#2 C:\xampp\htdocs\cake\cake\integrations\Controller\CallsController.php(54): Model->find('list')
+#3 [internal function]: CallsController->add()
+#4 C:\xampp\htdocs\cake\cake\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(CallsController), Array)
+#5 C:\xampp\htdocs\cake\cake\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\cake\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(CallsController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-03-13 15:56:03 Error: [MissingTableException] Database table integration_types for model IntegrationType was not found.
+#0 C:\xampp\htdocs\cake\cake\lib\Cake\Model\Model.php(3265): Model->setSource('integration_typ...')
+#1 C:\xampp\htdocs\cake\cake\lib\Cake\Model\Datasource\DboSource.php(1026): Model->getDataSource()
+#2 C:\xampp\htdocs\cake\cake\lib\Cake\Model\Model.php(2483): DboSource->read(Object(Call), Array)
+#3 C:\xampp\htdocs\cake\cake\lib\Cake\Controller\Component\PaginatorComponent.php(172): Model->find('all', Array)
+#4 C:\xampp\htdocs\cake\cake\lib\Cake\Controller\Controller.php(1025): PaginatorComponent->paginate(NULL, Array, Array)
+#5 C:\xampp\htdocs\cake\cake\integrations\Controller\CallsController.php(18): Controller->paginate()
+#6 [internal function]: CallsController->index()
+#7 C:\xampp\htdocs\cake\cake\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(CallsController), Array)
+#8 C:\xampp\htdocs\cake\cake\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#9 C:\xampp\htdocs\cake\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(CallsController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-03-13 15:56:38 Error: [MissingTableException] Database table integration_types for model IntegrationType was not found.
+#0 C:\xampp\htdocs\cake\cake\lib\Cake\Model\Model.php(3265): Model->setSource('integration_typ...')
+#1 C:\xampp\htdocs\cake\cake\lib\Cake\Model\Model.php(2483): Model->getDataSource()
+#2 C:\xampp\htdocs\cake\cake\lib\Cake\Controller\Component\PaginatorComponent.php(172): Model->find('all', Array)
+#3 C:\xampp\htdocs\cake\cake\lib\Cake\Controller\Controller.php(1025): PaginatorComponent->paginate(NULL, Array, Array)
+#4 C:\xampp\htdocs\cake\cake\integrations\Controller\IntegrationTypesController.php(18): Controller->paginate()
+#5 [internal function]: IntegrationTypesController->index()
+#6 C:\xampp\htdocs\cake\cake\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(IntegrationTypesController), Array)
+#7 C:\xampp\htdocs\cake\cake\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp\htdocs\cake\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(IntegrationTypesController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-03-13 15:59:46 Error: [MissingTableException] Database table integration_types for model IntegrationType was not found.
+#0 C:\xampp\htdocs\cake\cake\lib\Cake\Model\Model.php(3265): Model->setSource('integration_typ...')
+#1 C:\xampp\htdocs\cake\cake\lib\Cake\Model\Model.php(2483): Model->getDataSource()
+#2 C:\xampp\htdocs\cake\cake\lib\Cake\Controller\Component\PaginatorComponent.php(172): Model->find('all', Array)
+#3 C:\xampp\htdocs\cake\cake\lib\Cake\Controller\Controller.php(1025): PaginatorComponent->paginate(NULL, Array, Array)
+#4 C:\xampp\htdocs\cake\cake\integrations\Controller\IntegrationTypesController.php(18): Controller->paginate()
+#5 [internal function]: IntegrationTypesController->index()
+#6 C:\xampp\htdocs\cake\cake\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(IntegrationTypesController), Array)
+#7 C:\xampp\htdocs\cake\cake\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp\htdocs\cake\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(IntegrationTypesController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-03-13 16:00:10 Error: [MissingTableException] Database table integration_types for model IntegrationType was not found.
+#0 C:\xampp\htdocs\cake\cake\lib\Cake\Model\Model.php(3265): Model->setSource('integration_typ...')
+#1 C:\xampp\htdocs\cake\cake\lib\Cake\Model\Model.php(2483): Model->getDataSource()
+#2 C:\xampp\htdocs\cake\cake\integrations\Controller\CallsController.php(54): Model->find('list')
+#3 [internal function]: CallsController->add()
+#4 C:\xampp\htdocs\cake\cake\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(CallsController), Array)
+#5 C:\xampp\htdocs\cake\cake\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\cake\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(CallsController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-03-13 16:00:47 Error: [MissingControllerException] Controller class TestController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-13 16:00:54 Error: [MissingControllerException] Controller class TestController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-13 16:01:01 Error: [MissingControllerException] Controller class Style.cssController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-13 16:01:05 Error: [MissingActionException] Action CallsController::excel() could not be found.
+#0 C:\xampp\htdocs\cake\cake\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cake\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(CallsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-03-13 16:01:08 Error: [MissingTableException] Database table integration_types for model IntegrationType was not found.
+#0 C:\xampp\htdocs\cake\cake\lib\Cake\Model\Model.php(3265): Model->setSource('integration_typ...')
+#1 C:\xampp\htdocs\cake\cake\lib\Cake\Model\Datasource\DboSource.php(1026): Model->getDataSource()
+#2 C:\xampp\htdocs\cake\cake\lib\Cake\Model\Model.php(2483): DboSource->read(Object(Call), Array)
+#3 C:\xampp\htdocs\cake\cake\lib\Cake\Controller\Component\PaginatorComponent.php(172): Model->find('all', Array)
+#4 C:\xampp\htdocs\cake\cake\lib\Cake\Controller\Controller.php(1025): PaginatorComponent->paginate(NULL, Array, Array)
+#5 C:\xampp\htdocs\cake\cake\integrations\Controller\CallsController.php(18): Controller->paginate()
+#6 [internal function]: CallsController->index()
+#7 C:\xampp\htdocs\cake\cake\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(CallsController), Array)
+#8 C:\xampp\htdocs\cake\cake\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#9 C:\xampp\htdocs\cake\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(CallsController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-03-13 16:02:00 Error: [MissingTableException] Database table integration_types for model IntegrationType was not found.
+#0 C:\xampp\htdocs\cake\cake\lib\Cake\Model\Model.php(3265): Model->setSource('integration_typ...')
+#1 C:\xampp\htdocs\cake\cake\lib\Cake\Model\Datasource\DboSource.php(1026): Model->getDataSource()
+#2 C:\xampp\htdocs\cake\cake\lib\Cake\Model\Model.php(2483): DboSource->read(Object(Call), Array)
+#3 C:\xampp\htdocs\cake\cake\lib\Cake\Controller\Component\PaginatorComponent.php(172): Model->find('all', Array)
+#4 C:\xampp\htdocs\cake\cake\lib\Cake\Controller\Controller.php(1025): PaginatorComponent->paginate(NULL, Array, Array)
+#5 C:\xampp\htdocs\cake\cake\integrations\Controller\CallsController.php(18): Controller->paginate()
+#6 [internal function]: CallsController->index()
+#7 C:\xampp\htdocs\cake\cake\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(CallsController), Array)
+#8 C:\xampp\htdocs\cake\cake\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#9 C:\xampp\htdocs\cake\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(CallsController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-03-13 16:03:10 Error: [MissingTableException] Database table integration_types for model IntegrationType was not found.
+#0 C:\xampp\htdocs\cake\cake\lib\Cake\Model\Model.php(3265): Model->setSource('integration_typ...')
+#1 C:\xampp\htdocs\cake\cake\lib\Cake\Model\Datasource\DboSource.php(1026): Model->getDataSource()
+#2 C:\xampp\htdocs\cake\cake\lib\Cake\Model\Model.php(2483): DboSource->read(Object(Call), Array)
+#3 C:\xampp\htdocs\cake\cake\lib\Cake\Controller\Component\PaginatorComponent.php(172): Model->find('all', Array)
+#4 C:\xampp\htdocs\cake\cake\lib\Cake\Controller\Controller.php(1025): PaginatorComponent->paginate(NULL, Array, Array)
+#5 C:\xampp\htdocs\cake\cake\integrations\Controller\CallsController.php(18): Controller->paginate()
+#6 [internal function]: CallsController->index()
+#7 C:\xampp\htdocs\cake\cake\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(CallsController), Array)
+#8 C:\xampp\htdocs\cake\cake\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#9 C:\xampp\htdocs\cake\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(CallsController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-03-13 16:03:40 Error: [MissingTableException] Database table integration_types for model IntegrationType was not found.
+#0 C:\xampp\htdocs\cake\cake\lib\Cake\Model\Model.php(3265): Model->setSource('integration_typ...')
+#1 C:\xampp\htdocs\cake\cake\lib\Cake\Model\Datasource\DboSource.php(1026): Model->getDataSource()
+#2 C:\xampp\htdocs\cake\cake\lib\Cake\Model\Model.php(2483): DboSource->read(Object(Call), Array)
+#3 C:\xampp\htdocs\cake\cake\lib\Cake\Controller\Component\PaginatorComponent.php(172): Model->find('all', Array)
+#4 C:\xampp\htdocs\cake\cake\lib\Cake\Controller\Controller.php(1025): PaginatorComponent->paginate(NULL, Array, Array)
+#5 C:\xampp\htdocs\cake\cake\integrations\Controller\CallsController.php(18): Controller->paginate()
+#6 [internal function]: CallsController->index()
+#7 C:\xampp\htdocs\cake\cake\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(CallsController), Array)
+#8 C:\xampp\htdocs\cake\cake\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#9 C:\xampp\htdocs\cake\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(CallsController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-03-13 16:04:03 Error: [MissingActionException] Action CallsController::index() could not be found.
+#0 C:\xampp\htdocs\cake\cake\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cake\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(CallsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-03-13 16:04:54 Error: [MissingTableException] Database table integration_types for model IntegrationType was not found.
+#0 C:\xampp\htdocs\cake\cake\lib\Cake\Model\Model.php(3265): Model->setSource('integration_typ...')
+#1 C:\xampp\htdocs\cake\cake\lib\Cake\Model\Datasource\DboSource.php(1026): Model->getDataSource()
+#2 C:\xampp\htdocs\cake\cake\lib\Cake\Model\Model.php(2483): DboSource->read(Object(Call), Array)
+#3 C:\xampp\htdocs\cake\cake\lib\Cake\Controller\Component\PaginatorComponent.php(172): Model->find('all', Array)
+#4 C:\xampp\htdocs\cake\cake\lib\Cake\Controller\Controller.php(1025): PaginatorComponent->paginate(NULL, Array, Array)
+#5 C:\xampp\htdocs\cake\cake\integrations\Controller\CallsController.php(18): Controller->paginate()
+#6 [internal function]: CallsController->index()
+#7 C:\xampp\htdocs\cake\cake\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(CallsController), Array)
+#8 C:\xampp\htdocs\cake\cake\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#9 C:\xampp\htdocs\cake\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(CallsController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-03-13 16:07:00 Error: [MissingTableException] Database table integration_types for model IntegrationType was not found.
+#0 C:\xampp\htdocs\cake\cake\lib\Cake\Model\Model.php(3265): Model->setSource('integration_typ...')
+#1 C:\xampp\htdocs\cake\cake\lib\Cake\Model\Datasource\DboSource.php(1026): Model->getDataSource()
+#2 C:\xampp\htdocs\cake\cake\lib\Cake\Model\Model.php(2483): DboSource->read(Object(Call), Array)
+#3 C:\xampp\htdocs\cake\cake\lib\Cake\Controller\Component\PaginatorComponent.php(172): Model->find('all', Array)
+#4 C:\xampp\htdocs\cake\cake\lib\Cake\Controller\Controller.php(1025): PaginatorComponent->paginate(NULL, Array, Array)
+#5 C:\xampp\htdocs\cake\cake\integrations\Controller\CallsController.php(18): Controller->paginate()
+#6 [internal function]: CallsController->index()
+#7 C:\xampp\htdocs\cake\cake\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(CallsController), Array)
+#8 C:\xampp\htdocs\cake\cake\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#9 C:\xampp\htdocs\cake\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(CallsController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-03-13 16:22:10 Error: [MissingControllerException] Controller class Style.cssController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-13 16:27:43 Error: [MissingControllerException] Controller class Style.cssController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-13 17:01:42 Error: [MissingControllerException] Controller class ActivityTypesController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-13 12:13:26 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'UserAuth' at line 1
+#0 C:\xampp\htdocs\cake\cake\lib\Cake\Model\Datasource\DboSource.php(436): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cake\cake\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('UserAuth', Array)
+#2 C:\xampp\htdocs\cake\cake\lib\Cake\Model\Datasource\DboSource.php(647): DboSource->execute('UserAuth', Array, Array)
+#3 C:\xampp\htdocs\cake\cake\lib\Cake\Model\Datasource\DboSource.php(589): DboSource->fetchAll('UserAuth', Array, Array)
+#4 C:\xampp\htdocs\cake\cake\lib\Cake\Model\Model.php(720): DboSource->query('UserAuth', Array, Object(Call))
+#5 C:\xampp\htdocs\cake\cake\integrations\Controller\CallsController.php(51): Model->__call('UserAuth', Array)
+#6 C:\xampp\htdocs\cake\cake\integrations\Controller\CallsController.php(51): Call->UserAuth()
+#7 [internal function]: CallsController->add()
+#8 C:\xampp\htdocs\cake\cake\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(CallsController), Array)
+#9 C:\xampp\htdocs\cake\cake\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\cake\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(CallsController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-03-13 12:13:44 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'UserAuth' at line 1
+#0 C:\xampp\htdocs\cake\cake\lib\Cake\Model\Datasource\DboSource.php(436): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cake\cake\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('UserAuth', Array)
+#2 C:\xampp\htdocs\cake\cake\lib\Cake\Model\Datasource\DboSource.php(647): DboSource->execute('UserAuth', Array, Array)
+#3 C:\xampp\htdocs\cake\cake\lib\Cake\Model\Datasource\DboSource.php(589): DboSource->fetchAll('UserAuth', Array, Array)
+#4 C:\xampp\htdocs\cake\cake\lib\Cake\Model\Model.php(720): DboSource->query('UserAuth', Array, Object(Call))
+#5 C:\xampp\htdocs\cake\cake\integrations\Controller\CallsController.php(51): Model->__call('UserAuth', Array)
+#6 C:\xampp\htdocs\cake\cake\integrations\Controller\CallsController.php(51): Call->UserAuth()
+#7 [internal function]: CallsController->add()
+#8 C:\xampp\htdocs\cake\cake\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(CallsController), Array)
+#9 C:\xampp\htdocs\cake\cake\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\cake\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(CallsController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-03-15 13:04:05 Error: [MissingControllerException] Controller class Style.cssController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-15 16:16:24 Error: [MissingPluginException] Plugin Usermgmt could not be found.
+#0 C:\xampp\htdocs\cake\cake\lib\Cake\Core\App.php(332): CakePlugin::path('Usermgmt')
+#1 C:\xampp\htdocs\cake\cake\lib\Cake\Core\App.php(217): App::pluginPath('Usermgmt')
+#2 C:\xampp\htdocs\cake\cake\lib\Cake\Core\App.php(510): App::path('Controller/Comp...', 'Usermgmt')
+#3 [internal function]: App::load('UserAuthCompone...')
+#4 [internal function]: spl_autoload_call('UserAuthCompone...')
+#5 C:\xampp\htdocs\cake\cake\lib\Cake\Controller\ComponentCollection.php(98): class_exists('UserAuthCompone...')
+#6 C:\xampp\htdocs\cake\cake\lib\Cake\Controller\ComponentCollection.php(51): ComponentCollection->load('Usermgmt.UserAu...', Array)
+#7 C:\xampp\htdocs\cake\cake\lib\Cake\Controller\Controller.php(585): ComponentCollection->init(Object(CallsController))
+#8 C:\xampp\htdocs\cake\cake\lib\Cake\Routing\Dispatcher.php(100): Controller->constructClasses()
+#9 C:\xampp\htdocs\cake\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(CallsController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-03-15 16:18:08 Error: [MissingControllerException] Controller class DashboardController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-15 16:22:47 Error: [MissingViewException] View file "C:\xampp\htdocs\cake\cake\integrations\View\Users\login.ctp" is missing.
+#0 C:\xampp\htdocs\cake\cake\lib\Cake\View\View.php(360): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cake\cake\lib\Cake\Controller\Controller.php(900): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cake\cake\lib\Cake\Routing\Dispatcher.php(111): Controller->render()
+#3 C:\xampp\htdocs\cake\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-03-15 16:22:54 Error: [MissingControllerException] Controller class UserController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-15 16:23:03 Error: [MissingViewException] View file "C:\xampp\htdocs\cake\cake\integrations\View\Users\login.ctp" is missing.
+#0 C:\xampp\htdocs\cake\cake\lib\Cake\View\View.php(360): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cake\cake\lib\Cake\Controller\Controller.php(900): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cake\cake\lib\Cake\Routing\Dispatcher.php(111): Controller->render()
+#3 C:\xampp\htdocs\cake\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-03-15 16:24:12 Error: [MissingControllerException] Controller class UsermgmtController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-15 16:24:22 Error: [MissingControllerException] Controller class UsermgmtController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-15 16:25:20 Error: [MissingControllerException] Controller class UsermgmtController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-15 16:25:25 Error: [MissingControllerException] Controller class UsermgmtController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-16 11:21:53 Error: [MissingControllerException] Controller class UsermgmtController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-16 11:22:02 Error: [MissingControllerException] Controller class UsermgmtController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-16 11:55:41 Error: [MissingControllerException] Controller class UsermgmtController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-16 11:55:48 Error: [MissingControllerException] Controller class UsermgmtController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-16 11:56:11 Error: [MissingControllerException] Controller class UsermgmtController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-16 11:56:11 Error: [MissingControllerException] Controller class Style.cssController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-16 11:56:17 Error: [MissingControllerException] Controller class UsermgmtController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-16 11:56:21 Error: [MissingControllerException] Controller class UsermgmtController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-16 12:04:41 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-16 12:04:41 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-16 12:04:41 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-16 12:04:42 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-16 12:04:54 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-16 12:04:54 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-16 12:04:54 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-16 12:04:54 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-16 12:04:55 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-16 12:05:37 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-16 12:05:37 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-16 12:05:37 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-16 12:05:37 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-16 12:05:38 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-16 12:05:53 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-16 12:05:53 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-16 12:05:53 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-16 12:05:54 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-16 12:05:54 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-16 12:05:56 Error: [MissingActionException] Action UsersController::signup() could not be found.
+#0 C:\xampp\htdocs\cake\cake\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cake\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-03-16 12:05:56 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-16 12:05:56 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-16 12:05:56 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-16 12:05:56 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-16 12:05:57 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-16 12:11:32 Error: [MissingControllerException] Controller class UsermgmtController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-17 13:35:37 Error: [MissingControllerException] Controller class UsermgmtController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-17 13:37:05 Error: [MissingTableException] Database table users for model User was not found.
+#0 C:\xampp\htdocs\cake\cake\lib\Cake\Model\Model.php(3265): Model->setSource('users')
+#1 C:\xampp\htdocs\cake\cake\lib\Cake\Model\Model.php(1223): Model->getDataSource()
+#2 C:\xampp\htdocs\cake\cake\lib\Cake\View\Helper\FormHelper.php(197): Model->schema()
+#3 C:\xampp\htdocs\cake\cake\lib\Cake\View\Helper\FormHelper.php(450): FormHelper->_introspectModel('User', 'fields')
+#4 C:\xampp\htdocs\cake\cake\integrations\View\Users\login.ctp(3): FormHelper->create('User', Array)
+#5 C:\xampp\htdocs\cake\cake\lib\Cake\View\View.php(595): include('C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\cake\cake\lib\Cake\View\View.php(362): View->_render('C:\xampp\htdocs...')
+#7 C:\xampp\htdocs\cake\cake\lib\Cake\Controller\Controller.php(900): View->render(NULL, NULL)
+#8 C:\xampp\htdocs\cake\cake\lib\Cake\Routing\Dispatcher.php(111): Controller->render()
+#9 C:\xampp\htdocs\cake\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-03-17 13:37:05 Error: [MissingControllerException] Controller class UsermgmtController could not be found.
+#0 C:\xampp\htdocs\cake\cake\integrations\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

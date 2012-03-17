@@ -1,0 +1,242 @@
+2012-03-12 18:26:22 Debug: Notice (8): Undefined variable: rows in [C:\xampp\htdocs\cake\cake\integrations\View\Calls\export_xls.ctp, line 25]
+Trace:
+include - APP\View\Calls\export_xls.ctp, line 25
+View::_render() - CORE\Cake\View\View.php, line 595
+View::render() - CORE\Cake\View\View.php, line 362
+Controller::render() - CORE\Cake\Controller\Controller.php, line 900
+CallsController::excel() - APP\Controller\CallsController.php, line 23
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 473
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 104
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 86
+[main] - APP\webroot\index.php, line 98
+
+2012-03-12 18:26:22 Debug: Notice (8): Undefined variable: rows in [C:\xampp\htdocs\cake\cake\integrations\View\Calls\export_xls.ctp, line 34]
+Trace:
+include - APP\View\Calls\export_xls.ctp, line 34
+View::_render() - CORE\Cake\View\View.php, line 595
+View::render() - CORE\Cake\View\View.php, line 362
+Controller::render() - CORE\Cake\Controller\Controller.php, line 900
+CallsController::excel() - APP\Controller\CallsController.php, line 23
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 473
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 104
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 86
+[main] - APP\webroot\index.php, line 98
+
+2012-03-12 18:27:13 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\cake\integrations\View\Calls\excel.ctp, line 1]
+Trace:
+include - APP\View\Calls\excel.ctp, line 1
+View::_render() - CORE\Cake\View\View.php, line 595
+View::render() - CORE\Cake\View\View.php, line 362
+Controller::render() - CORE\Cake\Controller\Controller.php, line 900
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 111
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 86
+[main] - APP\webroot\index.php, line 98
+
+2012-03-12 18:28:31 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\cake\integrations\View\Calls\excel.ctp, line 1]
+Trace:
+include - APP\View\Calls\excel.ctp, line 1
+View::_render() - CORE\Cake\View\View.php, line 595
+View::render() - CORE\Cake\View\View.php, line 362
+Controller::render() - CORE\Cake\Controller\Controller.php, line 900
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 111
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 86
+[main] - APP\webroot\index.php, line 98
+
+2012-03-12 18:29:05 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\cake\integrations\View\Calls\excel.ctp, line 1]
+Trace:
+include - APP\View\Calls\excel.ctp, line 1
+View::_render() - CORE\Cake\View\View.php, line 595
+View::render() - CORE\Cake\View\View.php, line 362
+Controller::render() - CORE\Cake\Controller\Controller.php, line 900
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 111
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 86
+[main] - APP\webroot\index.php, line 98
+
+2012-03-12 18:31:12 Debug: Notice (8): Undefined variable: excel in [C:\xampp\htdocs\cake\cake\integrations\View\Calls\excel.ctp, line 2]
+Trace:
+include - APP\View\Calls\excel.ctp, line 2
+View::_render() - CORE\Cake\View\View.php, line 595
+View::render() - CORE\Cake\View\View.php, line 362
+Controller::render() - CORE\Cake\Controller\Controller.php, line 900
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 111
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 86
+[main] - APP\webroot\index.php, line 98
+
+2012-03-12 18:31:37 Debug: Notice (8): Undefined variable: excel in [C:\xampp\htdocs\cake\cake\integrations\View\Calls\excel.ctp, line 2]
+Trace:
+include - APP\View\Calls\excel.ctp, line 2
+View::_render() - CORE\Cake\View\View.php, line 595
+View::render() - CORE\Cake\View\View.php, line 362
+Controller::render() - CORE\Cake\Controller\Controller.php, line 900
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 111
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 86
+[main] - APP\webroot\index.php, line 98
+
+2012-03-12 18:31:43 Debug: Notice (8): Undefined variable: excel in [C:\xampp\htdocs\cake\cake\integrations\View\Calls\excel.ctp, line 2]
+Trace:
+include - APP\View\Calls\excel.ctp, line 2
+View::_render() - CORE\Cake\View\View.php, line 595
+View::render() - CORE\Cake\View\View.php, line 362
+Controller::render() - CORE\Cake\Controller\Controller.php, line 900
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 111
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 86
+[main] - APP\webroot\index.php, line 98
+
+2012-03-12 18:34:21 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\cake\integrations\View\Calls\excel.ctp, line 1]
+Trace:
+include - APP\View\Calls\excel.ctp, line 1
+View::_render() - CORE\Cake\View\View.php, line 595
+View::render() - CORE\Cake\View\View.php, line 362
+Controller::render() - CORE\Cake\Controller\Controller.php, line 900
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 111
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 86
+[main] - APP\webroot\index.php, line 98
+
+2012-03-12 18:35:27 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\cake\integrations\View\Calls\excel.ctp, line 1]
+Trace:
+include - APP\View\Calls\excel.ctp, line 1
+View::_render() - CORE\Cake\View\View.php, line 595
+View::render() - CORE\Cake\View\View.php, line 362
+Controller::render() - CORE\Cake\Controller\Controller.php, line 900
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 111
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 86
+[main] - APP\webroot\index.php, line 98
+
+2012-03-12 19:22:44 Debug: Notice (8): Undefined variable: xls in [C:\xampp\htdocs\cake\cake\integrations\View\Calls\export.ctp, line 8]
+Trace:
+include - APP\View\Calls\export.ctp, line 8
+View::_render() - CORE\Cake\View\View.php, line 595
+View::render() - CORE\Cake\View\View.php, line 362
+Controller::render() - CORE\Cake\Controller\Controller.php, line 900
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 111
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 86
+[main] - APP\webroot\index.php, line 98
+
+2012-03-12 19:22:47 Debug: Notice (8): Undefined variable: xls in [C:\xampp\htdocs\cake\cake\integrations\View\Calls\export.ctp, line 8]
+Trace:
+include - APP\View\Calls\export.ctp, line 8
+View::_render() - CORE\Cake\View\View.php, line 595
+View::render() - CORE\Cake\View\View.php, line 362
+Controller::render() - CORE\Cake\Controller\Controller.php, line 900
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 111
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 86
+[main] - APP\webroot\index.php, line 98
+
+2012-03-12 19:23:00 Debug: Notice (8): Undefined variable: xls in [C:\xampp\htdocs\cake\cake\integrations\View\Calls\export.ctp, line 8]
+Trace:
+include - APP\View\Calls\export.ctp, line 8
+View::_render() - CORE\Cake\View\View.php, line 595
+View::render() - CORE\Cake\View\View.php, line 362
+Controller::render() - CORE\Cake\Controller\Controller.php, line 900
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 111
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 86
+[main] - APP\webroot\index.php, line 98
+
+2012-03-12 19:38:19 Debug: Notice (8): Undefined index: recieved_ons_id in [C:\xampp\htdocs\cake\cake\integrations\View\Shifts\view.ctp, line 53]
+Trace:
+include - APP\View\Shifts\view.ctp, line 53
+View::_render() - CORE\Cake\View\View.php, line 595
+View::render() - CORE\Cake\View\View.php, line 362
+Controller::render() - CORE\Cake\Controller\Controller.php, line 900
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 111
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 86
+[main] - APP\webroot\index.php, line 98
+
+2012-03-12 19:38:19 Debug: Notice (8): Undefined index: recieved_ons_id in [C:\xampp\htdocs\cake\cake\integrations\View\Shifts\view.ctp, line 53]
+Trace:
+include - APP\View\Shifts\view.ctp, line 53
+View::_render() - CORE\Cake\View\View.php, line 595
+View::render() - CORE\Cake\View\View.php, line 362
+Controller::render() - CORE\Cake\Controller\Controller.php, line 900
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 111
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 86
+[main] - APP\webroot\index.php, line 98
+
+2012-03-12 19:38:19 Debug: Notice (8): Undefined index: recieved_ons_id in [C:\xampp\htdocs\cake\cake\integrations\View\Shifts\view.ctp, line 53]
+Trace:
+include - APP\View\Shifts\view.ctp, line 53
+View::_render() - CORE\Cake\View\View.php, line 595
+View::render() - CORE\Cake\View\View.php, line 362
+Controller::render() - CORE\Cake\Controller\Controller.php, line 900
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 111
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 86
+[main] - APP\webroot\index.php, line 98
+
+2012-03-12 19:38:19 Debug: Notice (8): Undefined index: recieved_ons_id in [C:\xampp\htdocs\cake\cake\integrations\View\Shifts\view.ctp, line 53]
+Trace:
+include - APP\View\Shifts\view.ctp, line 53
+View::_render() - CORE\Cake\View\View.php, line 595
+View::render() - CORE\Cake\View\View.php, line 362
+Controller::render() - CORE\Cake\Controller\Controller.php, line 900
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 111
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 86
+[main] - APP\webroot\index.php, line 98
+
+2012-03-12 19:38:47 Debug: Notice (8): Undefined index: recieved_ons_id in [C:\xampp\htdocs\cake\cake\integrations\View\Shifts\view.ctp, line 53]
+Trace:
+include - APP\View\Shifts\view.ctp, line 53
+View::_render() - CORE\Cake\View\View.php, line 595
+View::render() - CORE\Cake\View\View.php, line 362
+Controller::render() - CORE\Cake\Controller\Controller.php, line 900
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 111
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 86
+[main] - APP\webroot\index.php, line 98
+
+2012-03-12 19:38:47 Debug: Notice (8): Undefined index: recieved_ons_id in [C:\xampp\htdocs\cake\cake\integrations\View\Shifts\view.ctp, line 53]
+Trace:
+include - APP\View\Shifts\view.ctp, line 53
+View::_render() - CORE\Cake\View\View.php, line 595
+View::render() - CORE\Cake\View\View.php, line 362
+Controller::render() - CORE\Cake\Controller\Controller.php, line 900
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 111
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 86
+[main] - APP\webroot\index.php, line 98
+
+2012-03-12 19:38:47 Debug: Notice (8): Undefined index: recieved_ons_id in [C:\xampp\htdocs\cake\cake\integrations\View\Shifts\view.ctp, line 53]
+Trace:
+include - APP\View\Shifts\view.ctp, line 53
+View::_render() - CORE\Cake\View\View.php, line 595
+View::render() - CORE\Cake\View\View.php, line 362
+Controller::render() - CORE\Cake\Controller\Controller.php, line 900
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 111
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 86
+[main] - APP\webroot\index.php, line 98
+
+2012-03-12 19:38:47 Debug: Notice (8): Undefined index: recieved_ons_id in [C:\xampp\htdocs\cake\cake\integrations\View\Shifts\view.ctp, line 53]
+Trace:
+include - APP\View\Shifts\view.ctp, line 53
+View::_render() - CORE\Cake\View\View.php, line 595
+View::render() - CORE\Cake\View\View.php, line 362
+Controller::render() - CORE\Cake\Controller\Controller.php, line 900
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 111
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 86
+[main] - APP\webroot\index.php, line 98
+
+2012-03-13 11:19:42 Debug: permission: actionUrl-calls/index
+2012-03-13 11:22:02 Debug: permission: actionUrl-users/dashboard
+2012-03-13 11:22:06 Debug: permission: actionUrl-users/dashboard
+2012-03-13 11:22:08 Debug: permission: actionUrl-users/dashboard
+2012-03-13 11:27:55 Debug: permission: actionUrl-users/dashboard
+2012-03-13 11:27:58 Debug: permission: actionUrl-users/dashboard
+2012-03-13 11:27:59 Debug: permission: actionUrl-users/dashboard
+2012-03-13 11:30:13 Debug: permission: actionUrl-users/dashboard
+2012-03-13 11:30:17 Debug: permission: actionUrl-users/dashboard
+2012-03-13 11:30:18 Debug: permission: actionUrl-users/dashboard
+2012-03-13 11:30:24 Debug: permission: actionUrl-calls/index
+2012-03-13 11:30:36 Debug: Could not send	forgot password	email to userid-2
+2012-03-13 11:39:48 Debug: permission: actionUrl-users/dashboard
+2012-03-13 11:39:50 Debug: permission: actionUrl-users/dashboard
+2012-03-13 11:40:46 Debug: permission: actionUrl-users/dashboard
+2012-03-13 11:41:36 Debug: permission: actionUrl-users/dashboard
+2012-03-13 11:41:38 Debug: permission: actionUrl-users/dashboard
+2012-03-13 11:41:39 Debug: permission: actionUrl-users/dashboard
+2012-03-13 11:43:11 Debug: permission: actionUrl-users/dashboard
+2012-03-13 11:43:13 Debug: permission: actionUrl-users/dashboard
+2012-03-13 11:43:14 Debug: permission: actionUrl-users/dashboard
+2012-03-13 11:43:15 Debug: permission: actionUrl-users/dashboard
+2012-03-13 11:43:19 Debug: permission: actionUrl-calls/index
+2012-03-13 11:43:25 Debug: permission: actionUrl-calls/view
+2012-03-13 11:46:15 Debug: permission: actionUrl-calls/edit
+2012-03-13 11:46:21 Debug: permission: actionUrl-recieved_ons/add

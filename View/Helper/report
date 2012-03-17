@@ -1,0 +1,118 @@
+LBCKTXLBRNC001> alt
+
+120312-23:54:21 10.29.136.1 8.0p RNC_NODE_MODEL_M_1_43 stopfile=/tmp/21193
+Connecting to 10.29.136.1:56836 (CorbaSecurity=ON, corba_class=5, java=1.5.0_24, jacoms=R71T28, jacorb=R71T31, jacsec=R71T24)
+Trying file=/var/opt/ericsson/amos/moshell_logfiles/v46248F/logs_moshell/tempfiles/20120312-235328_21150/ior21150
+Resolving the alarm service in OMS...
+Simple Alarm Client initialized...
+Starting to retrieve active alarms
+Nr of active alarms are: 43
+================================================================================================
+Date & Time (Local) S Specific Problem                    Cause                     Mo-Reference
+================================================================================================
+2012-01-10 00:24:14 w VC ete Alarm Indication Signal      alarm_indication_signal   Aal2PathVccTp=b9999a2
+2012-01-10 00:24:14 w VC ete Alarm Indication Signal      alarm_indication_signal   Aal2PathVccTp=b9999a1
+2012-03-06 14:26:20 M VC ete Loss of Connectivity         transmitter_failure_m3100 Aal2PathVccTp=b5805a1
+2012-03-06 14:26:23 M VC ete Loss of Connectivity         transmitter_failure_m3100 Aal2PathVccTp=b5805a2
+2012-03-06 14:26:26 M VC ete Loss of Connectivity         transmitter_failure_m3100 Aal2PathVccTp=b5805a3
+2012-03-06 14:27:57 M VC ete Loss of Connectivity         transmitter_failure_m3100 Aal2PathVccTp=b5805a4
+2012-03-06 14:28:00 M VC ete Loss of Connectivity         transmitter_failure_m3100 Aal2PathVccTp=b5805a7
+2012-03-06 14:28:00 M VC ete Loss of Connectivity         transmitter_failure_m3100 Aal2PathVccTp=b5805a5
+2012-03-06 14:28:04 M VC ete Loss of Connectivity         transmitter_failure_m3100 Aal2PathVccTp=b5805a6
+2012-03-06 14:29:17 M VC ete Loss of Connectivity         transmitter_failure_m3100 Aal2PathVccTp=b5806a3
+2012-03-06 14:30:09 M VC ete Loss of Connectivity         transmitter_failure_m3100 Aal2PathVccTp=b5806a1
+2012-03-06 14:30:16 M VC ete Loss of Connectivity         transmitter_failure_m3100 Aal2PathVccTp=b5806a2
+2012-03-06 14:31:50 M VC ete Loss of Connectivity         transmitter_failure_m3100 Aal2PathVccTp=b5806a7
+2012-03-06 14:31:50 M VC ete Loss of Connectivity         transmitter_failure_m3100 Aal2PathVccTp=b5806a5
+2012-03-06 14:31:50 M VC ete Loss of Connectivity         transmitter_failure_m3100 Aal2PathVccTp=b5806a4
+2012-03-06 14:31:53 M VC ete Loss of Connectivity         transmitter_failure_m3100 Aal2PathVccTp=b5806a6
+2012-03-12 23:14:50 M UtranCell_ServiceUnavailable        unavailable               UtranCell=TXU3164A 
+2012-03-12 23:14:50 M UtranCell_ServiceUnavailable        unavailable               UtranCell=TXU5670B 
+2012-03-12 23:14:50 M UtranCell_ServiceUnavailable        unavailable               UtranCell=TXU5670A 
+2012-03-12 23:14:50 w VC ete Alarm Indication Signal      alarm_indication_signal   Aal5TpVccTp=b3164ca
+2012-03-12 23:14:50 w VC ete Alarm Indication Signal      alarm_indication_signal   Aal5TpVccTp=b3164qa
+2012-03-12 23:14:50 M UtranCell_ServiceUnavailable        unavailable               UtranCell=TXU3164B 
+2012-03-12 23:14:50 M UtranCell_ServiceUnavailable        unavailable               UtranCell=TXU5670C 
+2012-03-12 23:14:51 w VC ete Alarm Indication Signal      alarm_indication_signal   Aal2PathVccTp=b5663a2
+2012-03-12 23:14:52 w VC ete Alarm Indication Signal      alarm_indication_signal   Aal5TpVccTp=b5670da
+2012-03-12 23:14:52 w VC ete Alarm Indication Signal      alarm_indication_signal   Aal2PathVccTp=b5663a1
+2012-03-12 23:14:52 w VC ete Alarm Indication Signal      alarm_indication_signal   Aal2PathVccTp=b5663a3
+2012-03-12 23:14:52 w VC ete Alarm Indication Signal      alarm_indication_signal   Aal5TpVccTp=b3164da
+2012-03-12 23:14:52 w VC ete Alarm Indication Signal      alarm_indication_signal   Aal2PathVccTp=b3164a1
+2012-03-12 23:14:52 w VC ete Alarm Indication Signal      alarm_indication_signal   Aal2PathVccTp=b3164a3
+2012-03-12 23:14:52 w VC ete Alarm Indication Signal      alarm_indication_signal   Aal2PathVccTp=b5670a1
+2012-03-12 23:14:52 w VC ete Alarm Indication Signal      alarm_indication_signal   Aal5TpVccTp=b5670qa
+2012-03-12 23:14:52 w VC ete Alarm Indication Signal      alarm_indication_signal   Aal2PathVccTp=b5670a2
+2012-03-12 23:14:52 w VC ete Alarm Indication Signal      alarm_indication_signal   Aal5TpVccTp=b5663ca
+2012-03-12 23:14:52 w VC ete Alarm Indication Signal      alarm_indication_signal   Aal5TpVccTp=b5663qa
+2012-03-12 23:14:52 M UtranCell_ServiceUnavailable        unavailable               UtranCell=TXU5663O 
+2012-03-12 23:14:52 w VC ete Alarm Indication Signal      alarm_indication_signal   Aal2PathVccTp=b3164a2
+2012-03-12 23:14:52 w VC ete Alarm Indication Signal      alarm_indication_signal   Aal2PathVccTp=b5670a3
+2012-03-12 23:14:52 w VC ete Alarm Indication Signal      alarm_indication_signal   Aal5TpVccTp=b5670ca
+2012-03-12 23:14:52 w VC ete Alarm Indication Signal      alarm_indication_signal   Aal5TpVccTp=b5663da
+2012-03-12 23:16:20 M NbapDedicated_RncRbsControlLinkDown transmission_error        IubLink=Iub_TXU5670,NbapDedicated=1
+2012-03-12 23:16:20 M NbapDedicated_RncRbsControlLinkDown transmission_error        IubLink=Iub_TXU5663,NbapDedicated=1
+2012-03-12 23:16:21 M NbapDedicated_RncRbsControlLinkDown transmission_error        IubLink=Iub_TXU3164,NbapDedicated=1
+>>> Total: 43 Alarms (0 Critical, 23 Major)   
+
+ 
+ Cell availability: 318 of 358 cells are up (88.8 %)
+Site availability:  39 of  52 sites are fully operational (75.0 %)
+Unlocked Cell availability: 318 of 324 unlocked cells are up (98.1 %)
+HS availability: 318 of 358 channels are up (88.8 %)
+EUL availability: 294 of 357 channels are up (82.4 %) 
+ 
+ 3) RNC Node Traffic Performance, ROP by ROP
+Report from 2012-03-13 02:45 UTC to 2012-03-13 04:44 UTC
+
+Date: 2012-03-13
+Object Counter               02:45  03:00  03:15  03:30  03:45  04:00  04:15  04:30
+       AvgSpeechErlang         3.3    3.3    3.2    2.9    2.7    2.6    2.4    2.2
+       CS57Drop                N/A    N/A    N/A    N/A    N/A    N/A    N/A    N/A
+       CS57RabSuc              N/A    N/A    N/A    N/A    N/A    N/A    N/A    N/A
+       CS64Access              N/A    N/A    N/A    N/A    N/A    N/A    N/A    N/A
+       CS64CCSR                N/A    N/A    N/A    N/A    N/A    N/A    N/A    N/A
+       CS64Drop                N/A    N/A    N/A    N/A    N/A    N/A    N/A    N/A
+       CS64NoRabEstAtt           0      0      0      0      0      0      0      0
+       CSIuSigSuc             99.9  100.0  100.0  100.0  100.0  100.0  100.0  100.0
+       CellFACHDrop            0.6    0.6    0.6    0.6    0.6    0.6    0.6    0.5
+       CsIRATG2UHOSucc         N/A    N/A    N/A    N/A    N/A    N/A    N/A    N/A
+       DCHMinperDrop           0.1    0.1    0.1    0.1    0.1    0.1    0.1    0.1
+       EULMinperDrop          36.9   34.1   33.7   37.9   35.8   36.8   37.2   45.1
+       EULRabSuc              99.6   99.4   99.3   99.7   99.5   99.7   99.6   99.9
+       EUL_NumRabEstAtt      54064  53020  52412  51858  51322  51459  50263  49576
+       FACHMinperDrop         37.6   37.4   34.2   37.6   35.6   36.6   35.5   38.5
+       HSMinperDrop           17.0   15.3   16.0   17.5   15.3   17.2   18.1   20.0
+       HsAccess               99.3   99.3   99.2   99.4   99.3   99.4   99.3   99.4
+       HsAvgNoUsers            1.5    1.5    1.5    1.5    1.5    1.5    1.5    1.4
+       HsDrop                  0.4    0.4    0.4    0.3    0.4    0.4    0.3    0.3
+       HsRetransmissionRate    5.1    5.0    5.4    5.6    5.1    6.0    5.9    5.3
+       HsTotNoUsers          493.4  491.6  497.1  484.0  471.5  481.8  472.1  443.8
+       HsTputAvg               0.8    0.9    0.9    0.9    0.8    0.9    0.8    0.9
+       HsTputGt100KbAvg        1.0    1.1    1.1    1.1    1.0    1.1    1.0    1.1
+       NoAbnormalHsRel         435    481    466    415    463    420    392    333
+       NoHsRel               27385  27944  26851  26778  26239  27724  27419  27198
+       NoRrcConnReq         127833 126974 125316 123443 120106 120074 116405 113309
+       NoRrcConnSuc         126412 125924 123898 122430 119246 119319 115603 112634
+       PSAccFailRate           0.7    0.7    0.8    0.6    0.7    0.6    0.7    0.6
+       PSAccess               99.2   99.3   99.2   99.3   99.3   99.4   99.3   99.4
+       PSCCSR                 98.7   98.7   98.6   98.8   98.7   98.8   98.7   98.9
+       PSDCHRetransRate        9.1    8.4     15    7.0   11.5    9.6   10.6    6.0
+       PSDrop                  0.6    0.6    0.6    0.6    0.6    0.6    0.6    0.6
+       PSIuSigSuc            100.0  100.0    100  100.0  100.0  100.0  100.0  100.0
+       PSRabSucc              99.8   99.8   99.8   99.9   99.9   99.9   99.9   99.9
+       PSRrcSucRate           99.4   99.5   99.4   99.5   99.4   99.5   99.4   99.5
+       PsAvgNoUsers            4.3    4.2    4.3    4.2    4.1    4.1    3.9    3.7
+       PsDCHFACHDropRate       0.6    0.6    0.6    0.6    0.6    0.6    0.6    0.6
+       PsDCHFACHRabSucc       45.2     18   26.7   61.3     50   28.0   47.8     50
+       PsIRATU2GCCSucc         N/A    N/A    N/A    N/A    N/A    N/A    N/A    N/A
+       RrcSuc                 99.3   99.4   99.3   99.4   99.4   99.4   99.3   99.5
+       SHOSuccess             99.9   99.8   99.8   99.9   99.8   99.9   99.9   99.9
+       SpchAccFailRate         0.9    0.8    0.8    0.8    1.2    0.8    0.9    1.0
+       SpchAccess             99.0   99.1   99.1   99.1   98.6   99.1   98.8   98.8
+       SpchCCSR               98.2   98.8   98.6   98.7   98.2   98.6   98.1   98.2
+       SpchDrop                0.8    0.3    0.5    0.4    0.4    0.4    0.7    0.6
+       SpchIRATU2GHOSucc       N/A    N/A    N/A    N/A    N/A    100    N/A    N/A
+       SpchNoRabEstAtt        4538   4378   3895   3506   3157   2911   2549   2175
+       SpchRabSuc             99.8   99.8   99.8   99.9   99.7   99.9   99.8   99.7
+       SpchRrcSucRate         99.3   99.4   99.4   99.3   99.1   99.3   99.2   99.3   
